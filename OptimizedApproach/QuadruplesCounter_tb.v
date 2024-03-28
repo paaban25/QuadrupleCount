@@ -26,7 +26,7 @@ module QuadruplesCounter_tb;
         
         // Run test cases
         #10;
-        input_array = 100'hfffffffffffffffffffffffff; // Example input: 10, 0, 10, 0, ..., 0
+        input_array = 100'hfffffffffffffffffffffffff; // Example input: 
         $display("Input array: %b", input_array);
         $display("k: %d", k);
         #10;
